@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><h1 class="encabezado">XXXTENTACION</h1></a>
+    <nav>
+        <ul>
+            <li><a href="index.html#título"><b>Biografía</b></a></li>
+            <li><a href="index.html#título2"><b>Discografía</b></a></li>
+            <li><a href="index.html#título3"><b>Éxitos</b></a></li>
+            <li><a href="index.html#título4"><b>Giras</b></a></li>
+            <li><a href="index.html#título5"><b>Redes sociales</b></a></li>
+        </ul>
+    </nav>
+    </header>
+    <section class="zona">
+    </section>
+    <script>
+        window.addEventListener ("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("abajo", window.scrollY>0);
+        })
+    </script>
+</body>
+</html>
